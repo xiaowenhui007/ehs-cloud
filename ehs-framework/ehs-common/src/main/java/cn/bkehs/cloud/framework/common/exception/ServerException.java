@@ -1,6 +1,6 @@
 package cn.bkehs.cloud.framework.common.exception;
 
-import cn.beckwell.ehs.framework.common.exception.enums.GlobalErrorCodeConstants;
+import cn.bkehs.cloud.framework.common.exception.enums.GlobalErrorCodeConstants;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

@@ -1,6 +1,6 @@
 package cn.bkehs.cloud.framework.common.exception;
 
-import cn.beckwell.ehs.framework.common.exception.enums.ServiceErrorCodeRange;
+import cn.bkehs.cloud.framework.common.exception.enums.ServiceErrorCodeRange;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
