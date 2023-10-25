@@ -1,0 +1,116 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.bkehs.cloud</groupId>
+    <artifactId>ehs-cloud</artifactId>
+    <version>${revision}</version>
+
+    <name>${project.artifactId}</name>
+    <description>beckwell ehs系统</description>
+
+    <modules>
+        <module>ehs-dependencies</module><!--项目依赖版本-->
+        <module>ehs-framework</module><!--基础组件-->
+        <module>ehs-gateway-center</module><!--网关-->
+        <module>ehs-infra-center</module><!--系统基础设施-->
+        <module>ehs-system-center</module><!--系统管理-->
+        <module>ehs-bpm-center</module><!--工作流管理-->
+        <module>ehs-ems-center</module><!--环境管理-->
+        <module>ehs-ohms-center</module><!--职业健康管理-->
+        <module>ehs-qms-center</module><!--质量管理-->
+        <module>ehs-ms-center</module><!--体系管理-->
+        <module>ehs-dpm-center</module><!--风险与隐患 双重预防-->
+        <module>ehs-edu-center</module><!--教育培训-->
+        <module>ehs-accident-center</module><!--事故管理-->
+        <module>ehs-operation-center</module><!--作业管理-->
+        <module>ehs-audit-ass-center</module><!--审核管理&专项评估 -->
+        <module>ehs-epc-center</module><!--承包商||相关方||第三方管理 -->
+        <module>ehs-fac-center</module><!--设备设施管理 -->
+        <module>ehs-chemical-center</module><!--化学品管理 -->
+        <module>ehs-er-center</module><!--应急救援-->
+        <module>ehs-target-kpi-center</module><!--目标指标&绩效考核-->
+        <module>ehs-bi-center</module>
+        <module>ehs-accident-center/ehs-accident-center-dto</module>
+        <module>ehs-accident-center/ehs-accident-center-client</module><!--数据分析-->
+    </modules>
+    <packaging>pom</packaging>
+
+
+    <!-- 统一管理jar包版本 -->
+    <properties>
+        <revision>1.0.0</revision>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <lombok.version>1.18.28</lombok.version>
+        <spring.boot.version>2.7.14</spring.boot.version>
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.bkehs.cloud</groupId>
+                <artifactId>ehs-dependencies</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire-plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                    <configuration>
+                        <annotationProcessorPaths>
+                            <path>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-configuration-processor</artifactId>
+                                <version>${spring.boot.version}</version>
+                            </path>
+                            <path>
+                                <groupId>org.projectlombok</groupId>
+                                <artifactId>lombok</artifactId>
+                                <version>${lombok.version}</version>
+                            </path>
+                            <path>
+                                <groupId>org.mapstruct</groupId>
+                                <artifactId>mapstruct-processor</artifactId>
+                                <version>${mapstruct.version}</version>
+                            </path>
+                        </annotationProcessorPaths>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <!-- 使用 huawei / aliyun 的 Maven 源，提升下载速度 -->
+    <repositories>
+        <repository>
+            <id>huaweicloud</id>
+            <name>huawei</name>
+            <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+        </repository>
+        <repository>
+            <id>aliyunmaven</id>
+            <name>aliyun</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+
+</project>

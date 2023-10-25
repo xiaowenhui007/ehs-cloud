@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-dto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-infra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-infra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-audit-ass-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-audit-ass-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-bi-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-bi-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-bpm-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-bpm-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-chemical-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-chemical-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-dependencies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-dependencies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-dpm-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-dpm-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-edu-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-edu-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-ems-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-ems-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-epc-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-epc-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-er-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-er-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-fac-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-fac-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-gateway-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-gateway-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-infra-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-infra-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-ms-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-ms-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-ohms-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-ohms-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-operation-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-operation-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-qms-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-qms-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-system-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-system-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-target-kpi-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-target-kpi-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

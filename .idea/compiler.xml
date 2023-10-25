@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for ehs-cloud" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../repository/org/springframework/boot/spring-boot-configuration-processor/2.7.14/spring-boot-configuration-processor-2.7.14.jar" />
+          <entry name="$PROJECT_DIR$/../../../repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar" />
+          <entry name="$PROJECT_DIR$/../../../repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+        </processorPath>
+        <module name="ehs-epc-center" />
+        <module name="ehs-bi-center" />
+        <module name="ehs-ms-center" />
+        <module name="ehs-accident-center-client" />
+        <module name="ehs-edu-center" />
+        <module name="ehs-common" />
+        <module name="ehs-operation-center" />
+        <module name="ehs-accident-center-domain" />
+        <module name="ehs-qms-center" />
+        <module name="ehs-bpm-center" />
+        <module name="ehs-gateway-center" />
+        <module name="ehs-accident-center-adapter" />
+        <module name="ehs-chemical-center" />
+        <module name="ehs-dpm-center" />
+        <module name="ehs-fac-center" />
+        <module name="ehs-infra-center" />
+        <module name="ehs-system-center" />
+        <module name="ehs-audit-ass-center" />
+        <module name="ehs-er-center" />
+        <module name="ehs-accident-center-infra" />
+        <module name="ehs-accident-center-start" />
+        <module name="ehs-ohms-center" />
+        <module name="ehs-accident-center-app" />
+        <module name="ehs-accident-center-dto" />
+        <module name="ehs-target-kpi-center" />
+        <module name="ehs-ems-center" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
