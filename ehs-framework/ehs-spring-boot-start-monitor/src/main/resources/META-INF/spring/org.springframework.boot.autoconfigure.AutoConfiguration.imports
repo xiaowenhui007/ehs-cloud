@@ -1,0 +1,2 @@
+cn.bkehs.cloud.framework.monitor.config.EhsMetricsAutoConfiguration
+cn.bkehs.cloud.framework.monitor.config.EhsTracerAutoConfiguration

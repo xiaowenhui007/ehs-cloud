@@ -10,7 +10,6 @@
     </parent>
 
     <artifactId>ehs-framework</artifactId>
-    <version>${revision}</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -20,6 +19,7 @@
     <modules>
         <module>ehs-common</module>
         <module>ehs-spring-boot-start-mybatis</module>
+        <module>ehs-spring-boot-start-monitor</module>
     </modules>
 
 </project>

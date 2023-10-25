@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -41,6 +42,7 @@
         <module name="ehs-accident-center-start" />
         <module name="ehs-ohms-center" />
         <module name="ehs-accident-center-app" />
+        <module name="ehs-spring-boot-start-monitor" />
         <module name="ehs-accident-center-dto" />
         <module name="ehs-target-kpi-center" />
         <module name="ehs-ems-center" />

@@ -27,7 +27,10 @@
         <dm8.jdbc.version>8.1.2.141</dm8.jdbc.version>
 
         <!--Web 相关 -->
+        <servlet.versoin>2.5</servlet.versoin>
         <swagger.version>2.2.8</swagger.version>
+        <springdoc.version>1.6.15</springdoc.version>
+        <knife4j.version>4.1.0</knife4j.version>
 
         <!-- 工具类相关 -->
         <captcha-plus.version>1.0.6</captcha-plus.version>
@@ -259,10 +262,46 @@
                 <version>${reflections.version}</version>
             </dependency>
 
+            <!-- Web 相关 -->
             <dependency>
                 <groupId>io.swagger.core.v3</groupId> <!-- 接口文档：使用最新版本的 Swagger 模型 -->
                 <artifactId>swagger-annotations</artifactId>
                 <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId> <!-- 接口文档：使用最新版本的 Swagger 模型 -->
+                <artifactId>swagger-models</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId> <!-- 接口文档 UI：解决 knife4j 引入的 Spring Doc 版本太老 -->
+                <artifactId>springdoc-openapi-common</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId> <!-- 接口文档 UI：解决 knife4j 引入的 Spring Doc 版本太老 -->
+                <artifactId>springdoc-openapi-webmvc-core</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId> <!-- 接口文档 UI：解决 knife4j 引入的 Spring Doc 版本太老 -->
+                <artifactId>springdoc-openapi-webflux-core</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId> <!-- 接口文档 UI：默认 -->
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId> <!-- 接口文档 UI：knife4j -->
+                <artifactId>knife4j-openapi3-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId> <!-- 接口文档 UI：knife4j【网关专属】 -->
+                <artifactId>knife4j-gateway-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
             </dependency>
 
             <!--监控-->
@@ -308,7 +347,11 @@
                 <version>${spring-boot-admin.version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>cn.bkehs.cloud</groupId>
+                <artifactId>ehs-spring-boot-start-monitor</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- 业务依赖   事故模块-->
             <dependency>
