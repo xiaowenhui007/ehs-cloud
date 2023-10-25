@@ -19,6 +19,7 @@
     </description>
     <modules>
         <module>ehs-common</module>
+        <module>ehs-spring-boot-start-mybatis</module>
     </modules>
 
 </project>

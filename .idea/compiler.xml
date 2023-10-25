@@ -18,17 +18,18 @@
           <entry name="$PROJECT_DIR$/../../../repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
         <module name="ehs-epc-center" />
+        <module name="ehs-spring-boot-start-mybatis" />
         <module name="ehs-bi-center" />
         <module name="ehs-ms-center" />
         <module name="ehs-accident-center-client" />
         <module name="ehs-edu-center" />
-        <module name="ehs-common" />
         <module name="ehs-operation-center" />
+        <module name="ehs-common" />
         <module name="ehs-accident-center-domain" />
         <module name="ehs-qms-center" />
+        <module name="ehs-accident-center-adapter" />
         <module name="ehs-bpm-center" />
         <module name="ehs-gateway-center" />
-        <module name="ehs-accident-center-adapter" />
         <module name="ehs-chemical-center" />
         <module name="ehs-dpm-center" />
         <module name="ehs-fac-center" />
