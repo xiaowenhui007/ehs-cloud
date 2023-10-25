@@ -1,0 +1,2 @@
+cn.bkehs.cloud.framework.mybatis.config.EhsDataSourceAutoConfiguration
+cn.bkehs.cloud.framework.mybatis.config.EhsMybatisAutoConfiguration

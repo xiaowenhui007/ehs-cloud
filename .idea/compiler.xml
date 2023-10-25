@@ -24,8 +24,8 @@
         <module name="ehs-ms-center" />
         <module name="ehs-accident-center-client" />
         <module name="ehs-edu-center" />
-        <module name="ehs-operation-center" />
         <module name="ehs-common" />
+        <module name="ehs-operation-center" />
         <module name="ehs-accident-center-domain" />
         <module name="ehs-qms-center" />
         <module name="ehs-accident-center-adapter" />

@@ -21,4 +21,4 @@ knife4j:
     routes:
       - name: accident-server
         service-name: accident-server
-        url: /admin-api/system/v3/api-docs
+        url: /admin-api/accident/v3/api-docs
