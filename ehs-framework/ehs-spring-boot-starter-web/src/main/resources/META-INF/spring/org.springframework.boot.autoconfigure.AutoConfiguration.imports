@@ -1,0 +1,3 @@
+cn.bkehs.cloud.framework.web.jackson.config.EhsJacksonAutoConfiguration
+cn.bkehs.cloud.framework.web.swagger.config.EhsSwaggerAutoConfiguration
+cn.bkehs.cloud.framework.web.web.config.EhsWebAutoConfiguration

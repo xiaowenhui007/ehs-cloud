@@ -38,7 +38,7 @@
         <!-- 监控相关 -->
         <dependency>
             <groupId>cn.bkehs.cloud</groupId>
-            <artifactId>ehs-spring-boot-start-monitor</artifactId>
+            <artifactId>ehs-spring-boot-starter-monitor</artifactId>
         </dependency>
     </dependencies>
 

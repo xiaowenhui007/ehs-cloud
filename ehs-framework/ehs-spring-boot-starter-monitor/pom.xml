@@ -9,7 +9,7 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>ehs-spring-boot-start-monitor</artifactId>
+    <artifactId>ehs-spring-boot-starter-monitor</artifactId>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>

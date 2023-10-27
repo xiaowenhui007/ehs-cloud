@@ -18,8 +18,12 @@
     </description>
     <modules>
         <module>ehs-common</module>
-        <module>ehs-spring-boot-start-mybatis</module>
-        <module>ehs-spring-boot-start-monitor</module>
+        <module>ehs-spring-boot-starter-mybatis</module>
+        <module>ehs-spring-boot-starter-monitor</module>
+        <module>ehs-spring-boot-starter-redis</module>
+        <module>ehs-spring-boot-starter-rpc</module>
+        <module>ehs-spring-boot-starter-web</module>
+        <module>ehs-spring-boot-starter-security</module>
     </modules>
 
 </project>

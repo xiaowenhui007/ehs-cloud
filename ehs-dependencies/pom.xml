@@ -25,6 +25,7 @@
         <dynamic-datasource.version>3.6.1</dynamic-datasource.version>
         <mybatis-plus-join-boot-starter.version>1.4.5</mybatis-plus-join-boot-starter.version>
         <dm8.jdbc.version>8.1.2.141</dm8.jdbc.version>
+        <redisson.version>3.18.0</redisson.version>
 
         <!--Web 相关 -->
         <servlet.versoin>2.5</servlet.versoin>
@@ -120,6 +121,11 @@
                 <groupId>com.dameng</groupId>
                 <artifactId>DmJdbcDriver18</artifactId>
                 <version>${dm8.jdbc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
             </dependency>
 
             <!-- 工具类相关 -->
@@ -347,46 +353,25 @@
                 <version>${spring-boot-admin.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-spring-boot-start-monitor</artifactId>
-                <version>${revision}</version>
-            </dependency>
-
             <!-- 业务依赖   事故模块-->
             <dependency>
                 <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-app</artifactId>
+                <artifactId>ehs-accident-center-rpc</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-adapter</artifactId>
+                <artifactId>ehs-spring-boot-starter-rpc</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-client</artifactId>
+                <artifactId>ehs-spring-boot-starter-web</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-domain</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-dto</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-infra</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.bkehs.cloud</groupId>
-                <artifactId>ehs-accident-center-start</artifactId>
+                <artifactId>ehs-spring-boot-starter-monitor</artifactId>
                 <version>${revision}</version>
             </dependency>
         </dependencies>

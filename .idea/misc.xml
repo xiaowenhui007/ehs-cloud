@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-framework/ehs-spring-boot-start-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-framework/ehs-spring-boot-stater-rpc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

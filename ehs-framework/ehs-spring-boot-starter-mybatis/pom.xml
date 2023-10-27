@@ -9,7 +9,7 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>ehs-spring-boot-start-mybatis</artifactId>
+    <artifactId>ehs-spring-boot-starter-mybatis</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

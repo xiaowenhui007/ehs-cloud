@@ -19,27 +19,31 @@
           <entry name="$PROJECT_DIR$/../../../repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
         <module name="ehs-epc-center" />
-        <module name="ehs-spring-boot-start-mybatis" />
-        <module name="ehs-system-center" />
         <module name="ehs-bi-center" />
+        <module name="ehs-spring-boot-starter-monitor" />
         <module name="ehs-ms-center" />
-        <module name="ehs-audit-ass-center" />
-        <module name="ehs-er-center" />
         <module name="ehs-edu-center" />
+        <module name="ehs-spring-boot-starter-security" />
         <module name="ehs-common" />
         <module name="ehs-operation-center" />
         <module name="ehs-accident-center-biz" />
-        <module name="ehs-ohms-center" />
         <module name="ehs-qms-center" />
         <module name="ehs-bpm-center" />
         <module name="ehs-gateway-center" />
         <module name="ehs-chemical-center" />
-        <module name="ehs-spring-boot-start-monitor" />
+        <module name="ehs-spring-boot-starter-mybatis" />
         <module name="ehs-dpm-center" />
+        <module name="ehs-spring-boot-starter-web" />
         <module name="ehs-fac-center" />
         <module name="ehs-infra-center" />
-        <module name="ehs-accident-center-rpc" />
         <module name="ehs-change-center" />
+        <module name="ehs-spring-boot-starter-redis" />
+        <module name="ehs-system-center" />
+        <module name="ehs-spring-boot-starter-rpc" />
+        <module name="ehs-audit-ass-center" />
+        <module name="ehs-er-center" />
+        <module name="ehs-ohms-center" />
+        <module name="ehs-accident-center-rpc" />
         <module name="ehs-target-kpi-center" />
         <module name="ehs-ems-center" />
       </profile>
@@ -56,6 +60,16 @@
       <module name="ehs-accident-center-infra" target="1.8" />
       <module name="ehs-accident-center-start" target="1.8" />
       <module name="ehs-center" target="1.8" />
+      <module name="ehs-spring-boot-start-monitor" target="1.8" />
+      <module name="ehs-spring-boot-start-redis" target="1.8" />
+      <module name="ehs-spring-boot-start-rpc" target="1.8" />
+      <module name="ehs-spring-boot-start-security" target="1.8" />
+      <module name="ehs-spring-boot-start-web" target="1.8" />
+      <module name="ehs-spring-boot-stater-monitor" target="1.8" />
+      <module name="ehs-spring-boot-stater-mybatis" target="1.8" />
+      <module name="ehs-spring-boot-stater-redis" target="1.8" />
+      <module name="ehs-spring-boot-stater-security" target="1.8" />
+      <module name="ehs-spring-boot-stater-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
