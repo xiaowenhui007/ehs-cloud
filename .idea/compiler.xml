@@ -20,33 +20,42 @@
         </processorPath>
         <module name="ehs-epc-center" />
         <module name="ehs-spring-boot-start-mybatis" />
+        <module name="ehs-system-center" />
         <module name="ehs-bi-center" />
         <module name="ehs-ms-center" />
-        <module name="ehs-accident-center-client" />
+        <module name="ehs-audit-ass-center" />
+        <module name="ehs-er-center" />
         <module name="ehs-edu-center" />
         <module name="ehs-common" />
         <module name="ehs-operation-center" />
-        <module name="ehs-accident-center-domain" />
+        <module name="ehs-accident-center-biz" />
+        <module name="ehs-ohms-center" />
         <module name="ehs-qms-center" />
-        <module name="ehs-accident-center-adapter" />
         <module name="ehs-bpm-center" />
         <module name="ehs-gateway-center" />
         <module name="ehs-chemical-center" />
+        <module name="ehs-spring-boot-start-monitor" />
         <module name="ehs-dpm-center" />
         <module name="ehs-fac-center" />
         <module name="ehs-infra-center" />
-        <module name="ehs-system-center" />
-        <module name="ehs-audit-ass-center" />
-        <module name="ehs-er-center" />
-        <module name="ehs-accident-center-infra" />
-        <module name="ehs-accident-center-start" />
-        <module name="ehs-ohms-center" />
-        <module name="ehs-accident-center-app" />
-        <module name="ehs-spring-boot-start-monitor" />
-        <module name="ehs-accident-center-dto" />
+        <module name="ehs-accident-center-rpc" />
+        <module name="ehs-change-center" />
         <module name="ehs-target-kpi-center" />
         <module name="ehs-ems-center" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ehs-accident-center-adapter" target="1.8" />
+      <module name="ehs-accident-center-api" target="1.8" />
+      <module name="ehs-accident-center-app" target="1.8" />
+      <module name="ehs-accident-center-biz (1) (cn.bkehs.cloud)" target="1.8" />
+      <module name="ehs-accident-center-biz (2)" target="1.5" />
+      <module name="ehs-accident-center-client" target="1.8" />
+      <module name="ehs-accident-center-domain" target="1.8" />
+      <module name="ehs-accident-center-dto" target="1.8" />
+      <module name="ehs-accident-center-infra" target="1.8" />
+      <module name="ehs-accident-center-start" target="1.8" />
+      <module name="ehs-center" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

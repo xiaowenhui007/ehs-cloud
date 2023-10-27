@@ -1,0 +1,1 @@
+package cn.bkehs.cloud.accident.biz.adapter;

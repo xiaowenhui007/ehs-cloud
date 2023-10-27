@@ -12,11 +12,8 @@
     <artifactId>ehs-accident-center</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>ehs-accident-center-app</module>
-        <module>ehs-accident-center-adapter</module>
-        <module>ehs-accident-center-domain</module>
-        <module>ehs-accident-center-infra</module>
-        <module>ehs-accident-center-start</module>
+        <module>ehs-accident-center-rpc</module>
+        <module>ehs-accident-center-biz</module>
     </modules>
 
     <properties>

@@ -9,12 +9,13 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>ehs-accident-center-start</artifactId>
+    <artifactId>ehs-accident-center-biz</artifactId>
 
     <dependencies>
+
         <dependency>
-            <groupId>cn.bkehs.cloud</groupId>
-            <artifactId>ehs-accident-center-adapter</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>

@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-adapter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-biz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-domain/src/main/java" charset="UTF-8" />
@@ -13,8 +15,8 @@
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-dto/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-infra/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-infra/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-start/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-rpc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-accident-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-audit-ass-center/src/main/java" charset="UTF-8" />
@@ -23,6 +25,10 @@
     <file url="file://$PROJECT_DIR$/ehs-bi-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-bpm-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-bpm-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-change-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-change-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-chemical-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-chemical-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-dependencies/src/main/java" charset="UTF-8" />

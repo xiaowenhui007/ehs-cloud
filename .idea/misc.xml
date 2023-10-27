@@ -5,7 +5,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-api/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-app/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-client/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-dto/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-accident-center/ehs-accident-center-infra/pom.xml" />
+        <option value="$PROJECT_DIR$/ehs-center/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
