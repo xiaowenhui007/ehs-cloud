@@ -31,7 +31,7 @@
         <module>ehs-er-center</module><!--应急救援-->
         <module>ehs-target-kpi-center</module><!--目标指标&绩效考核-->
         <module>ehs-bi-center</module>
-        <module>ehs-change-center</module><!--数据分析-->
+        <module>ehs-change-center</module>
     </modules>
     <packaging>pom</packaging>
 

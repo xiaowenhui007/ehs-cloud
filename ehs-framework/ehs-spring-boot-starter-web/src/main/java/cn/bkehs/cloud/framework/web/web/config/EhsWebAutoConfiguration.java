@@ -1,6 +1,7 @@
 package cn.bkehs.cloud.framework.web.web.config;
 
 import cn.bkehs.cloud.framework.common.enums.WebFilterOrderEnum;
+import cn.bkehs.cloud.framework.web.apilog.core.service.ApiErrorLogFrameworkService;
 import cn.bkehs.cloud.framework.web.web.core.filter.CacheRequestBodyFilter;
 import cn.bkehs.cloud.framework.web.web.core.filter.DemoFilter;
 import cn.bkehs.cloud.framework.web.web.core.handler.GlobalExceptionHandler;
@@ -56,10 +57,10 @@ public class EhsWebAutoConfiguration implements WebMvcConfigurer {
                 && antPathMatcher.match(api.getController(), clazz.getPackage().getName())); // 仅仅匹配 controller 包
     }
 
-//    @Bean
-//    public GlobalExceptionHandler globalExceptionHandler(ApiErrorLogFrameworkService ApiErrorLogFrameworkService) {
-//        return new GlobalExceptionHandler(applicationName, ApiErrorLogFrameworkService);
-//    }
+    @Bean
+    public GlobalExceptionHandler globalExceptionHandler(ApiErrorLogFrameworkService ApiErrorLogFrameworkService) {
+        return new GlobalExceptionHandler(applicationName, ApiErrorLogFrameworkService);
+    }
 
     @Bean
     public GlobalResponseBodyHandler globalResponseBodyHandler() {

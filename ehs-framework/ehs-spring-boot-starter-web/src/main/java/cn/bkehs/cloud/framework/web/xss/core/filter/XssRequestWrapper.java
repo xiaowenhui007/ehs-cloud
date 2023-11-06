@@ -1,6 +1,5 @@
 package cn.bkehs.cloud.framework.web.xss.core.filter;
 
-
 import cn.bkehs.cloud.framework.web.xss.core.clean.XssCleaner;
 
 import javax.servlet.http.HttpServletRequest;

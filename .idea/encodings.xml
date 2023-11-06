@@ -47,6 +47,18 @@
     <file url="file://$PROJECT_DIR$/ehs-fac-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-framework/ehs-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-framework/ehs-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-banner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-data-permission/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-data-permission/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-dict/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-dict/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-error-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-error-code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-ip/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-ip/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-monitor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-monitor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-framework/ehs-spring-boot-starter-mybatis/src/main/java" charset="UTF-8" />
@@ -63,6 +75,10 @@
     <file url="file://$PROJECT_DIR$/ehs-framework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-gateway-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-gateway-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-infra-center/ehs-infra-center-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-infra-center/ehs-infra-center-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-infra-center/ehs-infra-center-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-infra-center/ehs-infra-center-rpc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-infra-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-infra-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-ms-center/src/main/java" charset="UTF-8" />
@@ -73,6 +89,10 @@
     <file url="file://$PROJECT_DIR$/ehs-operation-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-qms-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-qms-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-system-center/ehs-system-center-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-system-center/ehs-system-center-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-system-center/ehs-system-center-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ehs-system-center/ehs-system-center-rpc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-system-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-system-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehs-target-kpi-center/src/main/java" charset="UTF-8" />

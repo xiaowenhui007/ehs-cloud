@@ -1,13 +1,13 @@
 package cn.bkehs.cloud.framework.web.web.core.handler;
 
-import cn.beckwell.ehs.framework.apilog.core.service.ApiErrorLog;
-import cn.beckwell.ehs.framework.apilog.core.service.ApiErrorLogFrameworkService;
-import cn.beckwell.ehs.framework.common.exception.ServiceException;
-import cn.beckwell.ehs.framework.common.pojo.CommonResult;
-import cn.beckwell.ehs.framework.common.util.json.JsonUtils;
-import cn.beckwell.ehs.framework.common.util.monitor.TracerUtils;
-import cn.beckwell.ehs.framework.common.util.servlet.ServletUtils;
-import cn.beckwell.ehs.framework.web.core.util.WebFrameworkUtils;
+import cn.bkehs.cloud.framework.common.exception.ServiceException;
+import cn.bkehs.cloud.framework.common.pojo.CommonResult;
+import cn.bkehs.cloud.framework.common.util.json.JsonUtils;
+import cn.bkehs.cloud.framework.common.util.monitor.TracerUtils;
+import cn.bkehs.cloud.framework.common.util.servlet.ServletUtils;
+import cn.bkehs.cloud.framework.web.apilog.core.service.ApiErrorLog;
+import cn.bkehs.cloud.framework.web.apilog.core.service.ApiErrorLogFrameworkService;
+import cn.bkehs.cloud.framework.web.web.core.util.WebFrameworkUtils;
 import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.util.StrUtil;
@@ -33,7 +33,8 @@ import javax.validation.ValidationException;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-import static cn.beckwell.ehs.framework.common.exception.enums.GlobalErrorCodeConstants.*;
+import static cn.bkehs.cloud.framework.common.exception.enums.GlobalErrorCodeConstants.*;
+
 
 /**
  * 全局异常处理器，将 Exception 翻译成 CommonResult + 对应的异常编号

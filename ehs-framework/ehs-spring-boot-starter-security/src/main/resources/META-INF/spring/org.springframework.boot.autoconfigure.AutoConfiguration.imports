@@ -1,0 +1,3 @@
+cn.bkehs.cloud.framework.security.config.EhsSecurityRpcAutoConfiguration
+cn.bkehs.cloud.framework.security.config.EhsSecurityAutoConfiguration
+cn.bkehs.cloud.framework.security.config.EhsWebSecurityConfigurerAdapter

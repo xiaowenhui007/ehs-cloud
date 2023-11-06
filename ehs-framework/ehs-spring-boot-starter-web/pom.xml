@@ -67,5 +67,11 @@
             <artifactId>resilience4j-ratelimiter</artifactId>
             <scope>provided</scope> <!-- 设置为 provided，主要是 GlobalExceptionHandler 使用 -->
         </dependency>
+
+        <dependency>
+            <groupId>cn.bkehs.cloud</groupId>
+            <artifactId>ehs-infra-center-rpc</artifactId> <!-- 需要使用它，进行操作日志的记录 -->
+        </dependency>
+
     </dependencies>
 </project>

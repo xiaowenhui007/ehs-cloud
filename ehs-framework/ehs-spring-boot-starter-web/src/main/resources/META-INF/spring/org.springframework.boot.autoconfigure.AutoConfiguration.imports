@@ -1,3 +1,6 @@
+cn.bkehs.cloud.framework.web.apilog.config.EhsApiLogAutoConfiguration
 cn.bkehs.cloud.framework.web.jackson.config.EhsJacksonAutoConfiguration
 cn.bkehs.cloud.framework.web.swagger.config.EhsSwaggerAutoConfiguration
 cn.bkehs.cloud.framework.web.web.config.EhsWebAutoConfiguration
+cn.bkehs.cloud.framework.web.apilog.config.EhsApiLogRpcAutoConfiguration
+cn.bkehs.cloud.framework.web.xss.config.EhsXssAutoConfiguration

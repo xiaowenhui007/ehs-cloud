@@ -374,6 +374,26 @@
                 <artifactId>ehs-spring-boot-starter-monitor</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>cn.bkehs.cloud</groupId>
+                <artifactId>ehs-spring-boot-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.bkehs.cloud</groupId>
+                <artifactId>ehs-system-center-rpc</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.bkehs.cloud</groupId>
+                <artifactId>ehs-spring-boot-starter-security</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.bkehs.cloud</groupId>
+                <artifactId>ehs-infra-center-rpc</artifactId>
+                <version>${revision}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

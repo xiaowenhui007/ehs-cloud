@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import static cn.bkehs.cloud.framework.common.exception.enums.GlobalErrorCodeConstants.DEMO_DENY;
 
-
 /**
  * 演示 Filter，禁止用户发起写操作，避免影响测试数据
  *

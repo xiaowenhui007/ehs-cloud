@@ -1,6 +1,6 @@
 package cn.bkehs.cloud.framework.rpc.core.util;
 
-import cn.beckwell.ehs.framework.common.util.json.JsonUtils;
+import cn.bkehs.cloud.framework.common.util.json.JsonUtils;
 import cn.hutool.core.util.ReflectUtil;
 import feign.RequestTemplate;
 import feign.template.HeaderTemplate;

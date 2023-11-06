@@ -24,6 +24,12 @@
         <module>ehs-spring-boot-starter-rpc</module>
         <module>ehs-spring-boot-starter-web</module>
         <module>ehs-spring-boot-starter-security</module>
+        <module>ehs-spring-boot-starter-ip</module>
+        <module>ehs-spring-boot-starter-banner</module>
+        <module>ehs-spring-boot-starter-data-permission</module>
+        <module>ehs-spring-boot-starter-dict</module>
+        <module>ehs-spring-boot-starter-error-code</module>
+        <module>ehs-spring-boot-starter-log</module>
     </modules>
 
 </project>

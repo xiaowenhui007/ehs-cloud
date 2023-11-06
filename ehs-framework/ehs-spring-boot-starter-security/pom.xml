@@ -10,6 +10,7 @@
     </parent>
 
     <artifactId>ehs-spring-boot-starter-security</artifactId>
+    <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
     <description>用户的认证、权限的校验</description>
@@ -52,6 +53,10 @@
         </dependency>
 
         <!-- 业务组件 -->
+        <dependency>
+            <groupId>cn.bkehs.cloud</groupId>
+            <artifactId>ehs-system-center-rpc</artifactId> <!-- 需要使用它，进行数据权限的获取 -->
+        </dependency>
 
         <!-- 工具类相关 -->
         <dependency>

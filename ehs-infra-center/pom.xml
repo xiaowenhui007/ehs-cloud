@@ -11,6 +11,11 @@
 
 
     <artifactId>ehs-infra-center</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ehs-infra-center-biz</module>
+        <module>ehs-infra-center-rpc</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

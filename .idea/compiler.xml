@@ -18,11 +18,17 @@
           <entry name="$PROJECT_DIR$/../../../repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
           <entry name="$PROJECT_DIR$/../../../repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
+        <module name="ehs-spring-boot-starter-dict" />
         <module name="ehs-epc-center" />
+        <module name="ehs-spring-boot-starter-ip" />
         <module name="ehs-bi-center" />
         <module name="ehs-spring-boot-starter-monitor" />
         <module name="ehs-ms-center" />
+        <module name="ehs-infra-center-biz" />
+        <module name="ehs-spring-boot-starter-log" />
+        <module name="ehs-spring-boot-starter-error-code" />
         <module name="ehs-edu-center" />
+        <module name="ehs-system-center-biz" />
         <module name="ehs-spring-boot-starter-security" />
         <module name="ehs-common" />
         <module name="ehs-operation-center" />
@@ -34,16 +40,18 @@
         <module name="ehs-spring-boot-starter-mybatis" />
         <module name="ehs-dpm-center" />
         <module name="ehs-spring-boot-starter-web" />
+        <module name="ehs-spring-boot-starter-banner" />
         <module name="ehs-fac-center" />
-        <module name="ehs-infra-center" />
         <module name="ehs-change-center" />
         <module name="ehs-spring-boot-starter-redis" />
-        <module name="ehs-system-center" />
         <module name="ehs-spring-boot-starter-rpc" />
         <module name="ehs-audit-ass-center" />
         <module name="ehs-er-center" />
         <module name="ehs-ohms-center" />
+        <module name="ehs-spring-boot-starter-data-permission" />
+        <module name="ehs-infra-center-rpc" />
         <module name="ehs-accident-center-rpc" />
+        <module name="ehs-system-center-rpc" />
         <module name="ehs-target-kpi-center" />
         <module name="ehs-ems-center" />
       </profile>
